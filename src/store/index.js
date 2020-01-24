@@ -1,0 +1,83 @@
+import Vue from 'vue'
+import Vuex from 'vuex'
+
+Vue.use(Vuex)
+
+export default new Vuex.Store({
+  state: {
+    calls:[
+      { 
+      "name": "Convocatoria 1",
+      "id": 1,
+      "descriptions": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pellentesque, risus et dapibus ullamcorper, tellus dolor laoreet velit, eu laoreet tellus tortor non lacus.",
+      },{ 
+      "name": "Convocatoria 2",
+      "id": 2,
+      "descriptions": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pellentesque, risus et dapibus ullamcorper, tellus dolor laoreet velit, eu laoreet tellus tortor non lacus.",
+      }
+    ],
+      merits:[
+        {
+        "callId": 1,
+        "name": "Merito 1",
+        "score": 2,
+        "userScore": null,
+        "totalScore": null
+      },
+   {
+       "callId": 2,
+        "name": "Merito 2",
+        "score": 4,
+        "userScore": null,
+        "totalScore": null
+      },
+   {
+       "callId": 1,
+        "name": "Merito 3",
+        "score": 3,
+        "userScore": null,
+        "totalScore": null
+      },
+   {
+       "callId": 2,
+        "name": "Merito 4",
+        "score": 2,
+        "userScore": null,
+        "totalScore": null
+      },
+      {
+        "callId": 1,
+        "name": "Merito 1",
+        "score": 1,
+        "userScore": null,
+        "totalScore": null
+      },
+   {
+        "callId": 1,
+        "name": "Merito 2",
+        "score": 2,
+        "userScore": null,
+        "totalScore": null
+      },
+   {
+        "callId": 2,
+        "name": "Merito 3",
+        "score": 2,
+        "userScore": null,
+        "totalScore": null
+      },
+   {
+        "callId": 2,
+        "name": "Merito 4",
+        "score": 4,
+        "userScore": null,
+        "totalScore": null
+      }]
+  },
+  mutations: {
+  },
+  actions: {
+  },
+  modules: {
+  }
+})
