@@ -3,11 +3,7 @@
     <div class="conteiner ">
         <div class="heading ">
             <h1>Listado de convacotorias</h1>
-        </div>
-
-      
-      
-    
+        </div> 
     </div>
     <router-view/>
   </div>
